@@ -4,7 +4,7 @@ import calc
 class TestSum(unittest.TestCase):
 
     def test_sum1(self):
-        self.assertEqual(5, calc.add(2,3))
+        self.assertEqual(5, calc.add(2, 4))
 
     def test_sum2(self):
         self.assertEqual(89, calc.add(80,9))
